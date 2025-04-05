@@ -6,12 +6,16 @@
   <script>
     window.onload = function() {
       var rand = Math.random();
-      if (rand < 0.5) {
+
+      if (rand < 0.33) {
         // Replace with your Survey A URL
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfUwetEqvYLaanisIBMEwB4_8kIobp1CCgBtb_fSA5j7ghZvA/viewform?usp=preview";
-      } else {
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSf0nsJM7-wXbaAfrrztAoPpQNRxviZHncyqugtg7W5Jr8IdgQ/viewform?usp=header";
+      } else if (rand < 0.66) {
         // Replace with your Survey B URL
-        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeky3GktyJeCSk1pw81qLUmg7I5WUJcBpNkuxP5Q9jC3DPY-g/viewform?usp=dialog";
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSebRfUJ3WCl_4aWmW_O4qWVQRItipqLqS0RrZCmgn23V_M4fQ/viewform?usp=header";
+      } else {
+        // Replace with your Survey C URL
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSebRfUJ3WCl_4aWmW_O4qWVQRItipqLqS0RrZCmgn23V_M4fQ/viewform?usp=header";
       }
     }
   </script>
